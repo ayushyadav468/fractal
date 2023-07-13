@@ -1,0 +1,107 @@
+.hero_section {
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20%;
+}
+
+.hero_section_main_heading {
+	color: var(--dark-color);
+	font-family: var(--font-heading);
+	font-size: 4rem;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.hero_section_main_heading_style_1 {
+	color: var(--primary-color);
+	font-size: 3.75rem;
+	font-weight: 400;
+	line-height: normal;
+
+	display: flex;
+	width: 245px;
+	padding: 6px 16px;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 80px;
+	border: 2px dashed var(--primary-color);
+}
+
+.hero_section_main_heading_style_2 {
+	color: var(--light-color);
+	font-size: 2.5rem;
+	font-weight: 400;
+	line-height: normal;
+
+	display: flex;
+	width: 170px;
+	padding: 8px 60px;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 53px;
+	background: var(--primary-color);
+	position: relative;
+}
+
+.hero_section_main_heading_style_2::before {
+	content: '';
+	position: absolute;
+	top: -7%;
+	left: -3.5%;
+	width: 105%;
+	height: 110%;
+	border-radius: 70px;
+	border: 2px dotted var(--dark-color);
+}
+
+.hero_section_action_btn_container {
+	margin-top: 72px;
+	display: flex;
+	align-items: center;
+	gap: 62px;
+}
+
+.hero_section_action_btn {
+	padding: 18px 70px;
+
+	color: var(--dark-color);
+	text-align: center;
+	font-family: var(--font-normal);
+	font-size: 1.875rem;
+	font-weight: 400;
+
+	border-radius: 80px;
+	border: 1px solid var(--primary-color);
+}
+
+.hero_section_play_btn {
+	width: 40px;
+	height: 40px;
+	padding: 1rem;
+	padding-left: 1.125rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 1px dashed var(--primary-color);
+	background: rgba(44, 95, 82, 0.11);
+}
+
+.hero_section_img {
+	padding: 1rem 0;
+	border-radius: 272.84px;
+	background: linear-gradient(
+		137deg,
+		rgba(255, 168, 0, 0.37) 0%,
+		rgba(255, 0, 122, 0.58) 100%
+	);
+}

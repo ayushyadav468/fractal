@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	--font-heading: 'DM Serif Display', serif;
+	--font-normal: 'Poppins', sans-serif;
+
+	--light-color: rgb(255, 255, 255);
+	--dark-color: rgb(0, 0, 0);
+	--primary-color: rgb(44, 95, 82);
+	--secondary-color: rgb(255, 192, 161);
+	--hero-section-gradient: linear-gradient(
+		137deg,
+		rgba(255, 0, 122, 0.58) 0%,
+		rgba(255, 168, 0, 0.37) 100%
+	);
+}
+
+body {
+	font-family: var(--font-normal);
+}
+
+a,
+button {
+	all: unset;
+	cursor: pointer;
+}

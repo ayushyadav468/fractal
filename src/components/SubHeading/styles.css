@@ -1,0 +1,44 @@
+.subheading_container {
+	max-width: 660px;
+	margin: 80px auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+
+	border-radius: 45px;
+	background-color: var(--secondary-color);
+	position: relative;
+}
+
+.subheading_container::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -1%;
+	width: 102%;
+	height: 120%;
+
+	border-radius: 70px;
+	border: 0.8px dashed #000;
+}
+
+.subheading_icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subheading_heading {
+	color: var(--dark-color);
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+.subheading_para {
+	color: var(--dark-color);
+	font-size: 0.625rem;
+	font-weight: 400;
+}
